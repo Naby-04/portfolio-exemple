@@ -5,7 +5,6 @@
   font-family: sans-serif;
   text-decoration: none;
   list-style: none;
-  /* border: 1px solid red; */
 }
 .orange-bar {
   width: 70px;
@@ -147,7 +146,6 @@ h1 {
   gap: 50px;
   font-size: 1.2rem;
   font-weight: bold;
-  /* min-width: 525px; */
 }
 
 /*-------------------------------- les titres --------------------------------*/
@@ -311,6 +309,7 @@ svg {
 }
 
 /*------------------------------------ animation ------------------------------------*/
+
 @keyframes animate-bar {
   100% {
     stroke-dashoffset: -1;
