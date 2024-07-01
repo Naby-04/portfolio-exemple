@@ -3,10 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style1.css" />
     <title>portfolio</title>
   </head>
   <body>
+    <!------------------------------- header section ------------------------------->
     <header>
       <nav>
         <div>
@@ -32,48 +33,65 @@
         </div>
       </nav>
     </header>
+    <!------------------------------- main section ------------------------------->
+
     <main>
       <div class="btn"><button>Download CV</button></div>
       <section class="home"></section>
-      <section class="portfolio">
-        <img src="image/profile-1-250x250.jpg" alt="photo-profil" />
-        <div class="contacts">
-          <div>
-            <h1>Michel SMith</h1>
-            <h2>Key Account Manager</h2>
+
+      <div class="separate">
+        <!------------------------------- portfolio section ------------------------------->
+
+        <section class="portfolio">
+          <div class="contacts">
+            <img src="image/profile-1-250x250.jpg" alt="photo-profil" />
+            <div class="infos">
+              <div>
+                <h1>Michel SMith</h1>
+                <h2>Key Account Manager</h2>
+              </div>
+              <div class="contact">
+                <p><strong>BORN :</strong> August 25, 1987</p>
+                <p><strong>EMAIL :</strong> mymith@mywebpage.com</p>
+                <p><strong>MARITAL STATUS :</strong> Married</p>
+              </div>
+              <div class="social-links">
+                <img src="icons/bxl-pinterest.png" alt="logo-pinterest" />
+                <img src="icons/bxl-linkedin-square.png" alt="logo-linkedin" />
+                <img src="icons/bxl-instagram-alt.png" alt="logo-instagram" />
+                <img src="icons/bxl-facebook.png" alt="logo-facebook" />
+                <img src="icons/bxl-twitter.png" alt="logo-twitter" />
+              </div>
+            </div>
           </div>
-          <div class="contact">
-            <p><strong>BORN :</strong> August 25, 1987</p>
-            <p><strong>EMAIL :</strong> mymith@mywebpage.com</p>
-            <p><strong>MARITAL STATUS :</strong> Married</p>
-          </div>
-          <div class="social-links">
-            <img src="icons/bxl-pinterest.png" alt="logo-pinterest" />
-            <img src="icons/bxl-linkedin-square.png" alt="logo-linkedin" />
-            <img src="icons/bxl-instagram-alt.png" alt="logo-instagram" />
-            <img src="icons/bxl-facebook.png" alt="logo-facebook" />
-            <img src="icons/bxl-twitter.png" alt="logo-twitter" />
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
+
+      <!------------------------------- work section ------------------------------->
+
       <section class="work">
         <div class="work-container">
-          <div class="guide">
-            <div class="left-side">
-              <div class="deco"></div>
-              <h2>Portfolio</h2>
-              <p><strong>MY WORK</strong></p>
-            </div>
-            <div class="right-side">
-              <ul>
-                <li><a href="#">ALL</a></li>
-                <li><a href="#">WEB DESIGN</a></li>
-                <li><a href="#">BRANDING</a></li>
-                <li><a href="#">GRAPHIC DESIGN</a></li>
-              </ul>
+          <div class="partie">
+            <div class="partie-container">
+              <div class="partie-tittle">
+                <div class="orange-bar"></div>
+                <h2>Portfolio</h2>
+                <p><strong>MY WORK</strong></p>
+              </div>
+              <div class="album-nav">
+                <ul>
+                  <li><a href="#">ALL</a></li>
+                  <li><a href="#">WEB DESIGN</a></li>
+                  <li><a href="#">BRANDING</a></li>
+                  <li><a href="#">GRAPHIC DESIGN</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
+
+        <!----------------------------- album section ----------------------------->
+
         <div class="album">
           <img src="image/portfolio-1-600x400.jpg" alt="" />
           <img src="image/portfolio-7-600x800.jpg" alt="" />
@@ -88,67 +106,250 @@
           <img src="image/portfolio-6-600x800.jpg" alt="" />
         </div>
       </section>
+
+      <!------------------------------- about me section ------------------------------->
+
       <section class="about-me">
-        <div class="about-me-container">
-          <div class="guide">
-            <div class="left-side">
-              <div class="deco"></div>
-              <h2>About me</h2>
-              <p><strong>PROFESSIONAL PATH</strong></p>
-            </div>
-            <div class="right-side">
-              <p>
-                Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
-                neque sit amet sodales. <br />
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-                maximus pellentes que <br />
-                velit, quis consequat nulla effi citur at. Maecenas sed massa
-                tristique.Duis non volutpat <br />
-                arcu, eu mollis tellus. Sed finibus aliquam neque sit amet
-                sodales. Lorem ipsum dolor <br />
-                sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
-                amet, consectetur <br />
-                adipiscing elit. Nulla maximus pellentes que velit, quis
-                consequat nulla effi citur <br />
-                at.Maecenas sed massa tristique.
-              </p>
+        <!-- <div class="about-me-container"> -->
+        <div class="partie">
+          <div class="partie-tittle">
+            <div class="orange-bar"></div>
+            <h2>About me</h2>
+            <p><strong>PROFESSIONAL PATH</strong></p>
+          </div>
+
+          <div class="right-side">
+            <p>
+              Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+              neque sit amet sodales. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit. Nulla maximus pellentes que velit, quis consequat
+              nulla effi citur at. Maecenas sed massa tristique.Duis non
+              volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit
+              amet sodales. Lorem ipsum dolor sit amet, consectetur adipiscing
+              elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Nulla maximus pellentes que velit, quis consequat nulla effi citur
+              at.Maecenas sed massa tristique.
+            </p>
+
+            <!--------------------------------- proress bar --------------------------------->
+
+            <div class="progress-bar">
+              <div class="progress-circle">
+                <div class="piste">
+                  <div class="progress-text">
+                    <span>97%</span>
+                    <span>HTML5 & CSS3</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- <div class="progress-circle over50 p100">
+                  <span>78%</span>
+                  <div class="left-half-clipper">
+                    <div class="first50-bar"></div>
+                    <div class="value-bar"></div>
+                  </div>
+                </div>
+
+                <div class="progress-circle over50 p100">
+                  <span>67%</span>
+                  <div class="left-half-clipper">
+                    <div class="first50-bar"></div>
+                    <div class="value-bar"></div>
+                  </div>
+                </div>
+
+                <div class="progress-circle over50 p100">
+                  <span>97%</span>
+                  <div class="left-half-clipper">
+                    <div class="first50-bar"></div>
+                    <div class="value-bar"></div>
+                  </div>
+                </div> -->
             </div>
           </div>
+          <!-- </div> -->
         </div>
       </section>
+      <!------------------------------- experience section ------------------------------->
+
       <section class="work-experience">
         <div class="work-experience-container">
-          <div class="left-side">
-            <div class="deco"></div>
-            <h2>Work Experience</h2>
-            <p><strong>PREVIOUS JOBS</strong></p>
-          </div>
-          <div class="right-side">
-            <div class="head">
-              <div>
-                <h2>JUNIOR PROJECT MANAGER</h2>
-                <h3>DESIGN STUDIO</h3>
-              </div>
-              <div></div>
+          <div class="partie">
+            <div class="partie-tittle">
+              <div class="orange-bar"></div>
+              <h2>Work Experience</h2>
+              <p><strong>PREVIOUS JOBS</strong></p>
             </div>
-            <div class="para"></div>
-            <div class="list"></div>
+            <div class="experience">
+              <div class="experience-text">
+                <div class="head">
+                  <div class="job">
+                    <h2>JUNIOR PROJECT MANAGER</h2>
+                    <h3>DESIGN STUDIO</h3>
+                  </div>
+                  <div class="date">MARCH 2015 - PRESENT</div>
+                </div>
+                <p>
+                  Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                  neque sit amet sodales. <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  maximus pellentes que <br />
+                  velit, quis consequat nulla effi citur at. Maecenas sed massa
+                  tristique.Duis non volutpat <br />
+                  arcu, eu mollis tellus. Sed finibus aliquam neque sit amet
+                  sodales.
+                </p>
+                <div class="list">
+                  <ul>
+                    <li>Duis non volutpat arcu, eu mollis tellus.</li>
+                    <li>Quis consequat nulla effi citur at.</li>
+                    <li>Sed finibus aliquam neque sit.</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="experience-text">
+                <div class="head">
+                  <div class="job">
+                    <h2>JUNIOR PROJECT MANAGER</h2>
+                    <h3>DESIGN STUDIO</h3>
+                  </div>
+                  <div class="date">MARCH 2015 - PRESENT</div>
+                </div>
+                <p>
+                  Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                  neque sit amet sodales. <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  maximus pellentes que <br />
+                  velit, quis consequat nulla effi citur at. Maecenas sed massa
+                  tristique.Duis non volutpat <br />
+                  arcu, eu mollis tellus. Sed finibus aliquam neque sit amet
+                  sodales.
+                </p>
+                <div class="list">
+                  <ul>
+                    <li>Duis non volutpat arcu, eu mollis tellus.</li>
+                    <li>Quis consequat nulla effi citur at.</li>
+                    <li>Sed finibus aliquam neque sit.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <!-- <section class="Education">
-        <div class="Education-container">
-          <div class="left-side">
-            <div class="deco"></div>
-            <h2>Portfolio</h2>
-            <p><strong>MY WORK</strong></p>
+      <!------------------------------- education section ------------------------------->
+
+      <section class="education">
+        <div class="education-container">
+          <div class="partie">
+            <div class="partie-tittle">
+              <div class="orange-bar"></div>
+              <h2>Education</h2>
+              <p><strong>ACADEMIC CAREER</strong></p>
+            </div>
+            <div class="experience">
+              <div class="experience-text">
+                <div class="head">
+                  <div class="job">
+                    <h2>MASTER DEGREE IN SCIENCE</h2>
+                    <h3>UCLA - SCIENCE AND ENGINEERING</h3>
+                  </div>
+                  <div class="date">GRADUATED IN MAY 2010(2 YEARS)</div>
+                </div>
+                <p>
+                  Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                  neque sit amet sodales. <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  maximus pellentes que <br />
+                  velit, quis consequat nulla effi citur at. Maecenas sed massa
+                  tristique.Duis non volutpat <br />
+                  arcu, eu mollis tellus. Sed finibus aliquam neque sit amet
+                  sodales.
+                </p>
+              </div>
+              <div class="experience-text">
+                <div class="head">
+                  <div class="job">
+                    <h2>COURSE ON COMPUTER SCIENCE</h2>
+                    <h3>NEW YORK PUBLIC UNIVERSITY</h3>
+                  </div>
+                  <div class="date">GRADUATED IN MAY 2009(6 MONTHS)</div>
+                </div>
+                <p>
+                  Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                  neque sit amet sodales. <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  maximus pellentes que <br />
+                  velit, quis consequat nulla effi citur at. Maecenas sed massa
+                  tristique.Duis non volutpat <br />
+                  arcu, eu mollis tellus. Sed finibus aliquam neque sit amet
+                  sodales.
+                </p>
+              </div>
+              <div class="experience-text">
+                <div class="head">
+                  <div class="job">
+                    <h2>GRADUATED VALEDICTERIAN</h2>
+                    <h3>PUBLIC COLLEGE</h3>
+                  </div>
+                  <div class="date">GRADUATED IN MAY 2008(4 YEARS)</div>
+                </div>
+                <p>
+                  Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam
+                  neque sit amet sodales. <br />
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                  maximus pellentes que <br />
+                  velit, quis consequat nulla effi citur at. Maecenas sed massa
+                  tristique.Duis non volutpat <br />
+                  arcu, eu mollis tellus. Sed finibus aliquam neque sit amet
+                  sodales.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </section> -->
+      </section>
+      <!------------------------------- sommaire section ------------------------------->
+
+      <section class="sommaire">
+        <div class="sommaire-container">
+          <div>
+            <span>3</span>
+            <div class="details">
+              <p>Coder</p>
+              <p>Degrees</p>
+            </div>
+          </div>
+          <div>
+            <span>25</span>
+            <div class="details">
+              <p>Project</p>
+              <p>Completed</p>
+            </div>
+          </div>
+          <div>
+            <span>311</span>
+            <div class="details">
+              <p>Satisfied</p>
+              <p>Clients</p>
+            </div>
+          </div>
+          <div>
+            <span>732</span>
+            <div class="details">
+              <p>Finished</p>
+              <p>Projects</p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
+    <!----------------------------------- footer ----------------------------------->
     <footer>
       <p>
-        Copyright ©2024 All rights reserved | This template is made with by
+        Copyright ©2024 All rights reserved | This template is made with
+        <img src="icons/bxs-heart.png" alt="heart" /> by
         <a href="#">Colorlib</a>
       </p>
     </footer>
